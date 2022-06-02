@@ -1,0 +1,23 @@
+# Ingnore log files
+**/*.log
+
+# Ingnore csv files
+**/*.csv
+
+# Ignore image files
+**/*.pdf
+**/*.png
+**/*.jpg
+
+# Ignore archive files
+**/*.zip
+
+# Ignore Python cache directories
+**/__pycache__
+
+
+# Ignore hidden files
+**/.*
+
+# Ignore data analisys
+data_analisys/

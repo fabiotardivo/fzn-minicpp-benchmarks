@@ -1,0 +1,79 @@
+{
+    "gecode" : {
+        "id"      : "gecode",
+        "mzn_id"  : "org.gecode.gecode",
+        "tags"    :  [],
+        "label"   : "Gecode",
+        "color"   : "#1f78b4"
+    },
+
+    "gecode-tt" : {
+        "id"      : "gecode-tt",
+        "mzn_id"  : "org.gecode.tt",
+        "tags"    :  [],
+        "label"   : "Gecode-TT",
+        "color"   : "#a6cee3"
+    },
+
+    "gecode-ef"  : {
+        "id"      : "gecode-ef",
+        "mzn_id"  : "org.gecode.ef",
+        "tags"    :  [],
+        "label"   : "Gecode-EF",
+        "color"   : "#1f78b4"
+    },
+
+    "jacop" :
+    {
+        "id"      : "jacop",
+        "mzn_id"  : "org.jacop.jacop",
+        "tags"    :  [],
+        "label"   : "Jacop",
+        "color"   : "#ff7f00"
+    },
+
+    "jacop-tt" :
+    {
+        "id"      : "jacop-tt",
+        "mzn_id"  : "org.jacop.tt",
+        "tags"    :  [],
+        "label"   : "Jacop-TT",
+        "color"   : "#fdbf6f"
+    },
+
+    "jacop-ef" :
+    {
+        "id"      : "jacop-ef",
+        "mzn_id"  : "org.jacop.ef",
+        "tags"    :  [],
+        "label"   : "Jacop-EF",
+        "color"   : "#ff7f00"
+    },
+
+    "minicpp" :
+    {
+        "id"      : "minicpp",
+        "mzn_id"  : "org.minicpp.minicpp",
+        "tags"    :  ["gpu"],
+        "label"   : "MiniCPP",
+        "color"   : "#33a02c"
+    },
+
+    "minicpp-er" :
+    {
+        "id"      : "minicpp-er",
+        "mzn_id"  : "org.minicpp.minicpp",
+        "tags"    :  [],
+        "label"   : "MiniCPP-ER",
+        "color"   : "#b2df8a"
+    },
+
+    "minicpp-er-gpu" :
+    {
+        "id"      : "minicpp-er-gpu",
+        "mzn_id"  : "org.minicpp.minicpp",
+        "tags"    : ["gpu"],
+        "label"   : "MiniCPP-ER-GPU",
+        "color"   : "#33a02c"
+    }
+} 

@@ -1,0 +1,8 @@
+{
+    "rcpsp" :
+    {
+        "id"        : "rcpsp",
+        "path"      : "./rcpsp",
+        "model"     : "rcpsp.mzn"
+    }
+} 
