@@ -61,7 +61,7 @@ constraint forall ( r in Res )
         (
             if RTasks != {} /\ sum_rr > rc[r] 
             then
-                cumulative([s[i] | i in RTasks], [ d[i] | i in RTasks ], [ rr[r, i] | i in RTasks ], rc[r]) ::gpu
+                cumulative([s[i] | i in RTasks], [ d[i] | i in RTasks ], [ rr[r, i] | i in RTasks ], rc[r])
             else
                 true
             endif
@@ -73,7 +73,7 @@ constraint forall (i in Tasks where suc[i] == {}) (s[i] + d[i] <= makespan);
 
 % Search
 % ---
-solve:: int_search(s ++ [], smallest, indomain_min, complete) satisfy;
+solve:: int_search(s, smallest, indomain_min, complete) satisfy;
 
 
 % Output

@@ -10,10 +10,11 @@ array [1..items] of int: weights;  % Items' weights
 int: n_bins;                       % Number of bins (Optimal)
 
 % Decisional variables
-array [1..items] of var 1..n_bins: items_bin;
+array [1..items] of var 1..items: items_bin;
 
 % Constraints
-constraint bin_packing(capacity, items_bin, weights) ::gpu;
+constraint forall(i in 1..items)(items_bin[i] <= n_bins);
+constraint bin_packing(capacity, items_bin, weights);
 
 % Search heuristic
 solve ::int_search(items_bin, input_order, indomain_min, complete) satisfy;
